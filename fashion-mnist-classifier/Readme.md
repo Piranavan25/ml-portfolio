@@ -17,3 +17,5 @@ Python, TensorFlow, Keras, NumPy, Matplotlib
 
 ---
 
+## How to Run
+Upload notebook to Google Colab and run all cells.
