@@ -21,7 +21,11 @@ Python, OpenCV, MediaPipe, Scikit-Learn, NumPy, Joblib
 ```
 
 rps-ml-game/
+rps-ml-game/
 ├─ data/                       # CSV dataset of hand landmarks
+├─ images/                     # Screenshots or GIFs of the game
+│  ├─ img1.png             # Example screenshot of the game
+│  └─ img2.png              # Optional workflow/architecture diagram
 ├─ models/                     # Trained ML model and label encoder
 │  ├─ rps_gesture_model.pkl
 │  └─ rps_label_encoder.pkl
@@ -29,8 +33,9 @@ rps-ml-game/
 │  ├─ collect_data.py          # Capture hand landmark data
 │  ├─ train_model.py           # Train ML model
 │  └─ play_rps.py              # Real-time game
-├─ README.md                   # This file
+├─ README.md                   # Project documentation
 └─ requirements.txt            # Python dependencies
+
 
 ````
 
@@ -72,5 +77,12 @@ python src/play_rps.py
 4. The game displays the winner on screen.
 
 ---
+
+## Demo
+![Gameplay](images/img1.png)
+![Gameplay](images/img2.png)
+![Gameplay](images/img3.png)
+![Gameplay](images/img4.png)
+![Gameplay](images/img5.png)
 
 
